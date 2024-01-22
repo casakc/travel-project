@@ -4,6 +4,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 144px;
+
   color: red;
 }
 
@@ -13,19 +14,22 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 30px auto;
+  margin: 0px auto;
   max-width: 1200px;
+  padding: 30px;
   text-align: center;
 }
 
 .header h1,
 .header h2 {
   color: white;
+  margin: 30px auto;
   text-align: center;
 }
 
 footer {
   font-family: "Poppins", sans-serif;
   font: 20px;
+  padding: 30px;
   text-align: center;
 }
