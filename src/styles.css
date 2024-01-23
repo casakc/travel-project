@@ -2,6 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.body-container {
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
 .header h1 {
   font-size: 96px;
   font-style: normal;
@@ -49,8 +54,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px auto;
-  max-width: 1200px;
   padding: 30px;
   text-align: center;
 }
@@ -64,12 +67,59 @@ body {
 }
 
 footer {
-  font: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/santiago.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
   padding: 30px;
-  text-align: center;
 }
 
-@media (max-width: 900px) {
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+footer h4 {
+  font: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.footer1 li {
+  font-size: 14px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.footer1 ul {
+  padding: 0px;
+}
+
+.footer1 a,
+.footer3 a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+.footer2 p,
+.footer3 p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+@media (max-width: 960px) {
   .header {
     padding: 16px;
   }
