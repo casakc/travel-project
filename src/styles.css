@@ -162,6 +162,14 @@ th {
   padding: 0 30px 30px 30px;
 }
 
+.card1-text a:hover,
+.card2-text a:hover,
+.card3-text a:hover {
+  background-color: #ffffff;
+  border: 1px solid #462cb3;
+  color: #462cb3;
+}
+
 .click {
   background-color: #462cb3;
   color: #ffffff;
