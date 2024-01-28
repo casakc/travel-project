@@ -189,6 +189,12 @@ th {
   text-align: center;
 }
 
+#grid-img1,
+#grid-img2,
+#grid-img3 {
+  transition: all 1ms ease-in-out;
+}
+
 #grid-img1:hover,
 #grid-img2:hover,
 #grid-img3:hover {
